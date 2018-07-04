@@ -1,0 +1,41 @@
+<html>
+<head></head>
+<body>
+<div id="myPie"></div>
+<script src="d3.v4.min.js" charset="utf-8"></script>
+<!-- <script src="https://d3js.org/d3-selection.v1.js"></script> -->
+ 
+<script src="d3pie.min.js"></script>
+
+<script>
+    var pie = new d3pie("myPie", {
+    header: {
+        title: {
+            text: "Active Recruitment on Locations"
+        }
+    },
+    data: {
+        content: [
+		
+            { label: "Chennai", value: 45 },
+			{ label: "Delhi", value: 15},
+            { label: "Hyderabad", value: 25 },
+            { label: "Banglore", value: 15},
+        ]
+     },
+ 
+    //Here further operations/animations can be added like click event, cut out the clicked pie section.
+     callbacks: {
+        onMouseoverSegment: function(info) {
+            console.log("mouse in", info);
+        },
+        onMouseoutSegment: function(info) {
+            console.log("mouseout:", info);
+        }
+    }
+      
+});
+ 
+</script>
+</body>
+</html>
