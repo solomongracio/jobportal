@@ -1,0 +1,87 @@
+.navbar-brand {
+    color: #cd040b !important
+}
+.home-page .banner {
+    /* background-color: rgba(205, 4, 11) */
+    background-color: #ed555a
+}
+.nav-pills.outline-active .nav-link.active {
+    background: #fff!important;
+    border-bottom: 2px solid #cd040b !important;
+    color :#cd040b !important;
+}
+a {
+    color :#cd040b;
+    text-decoration: none;
+}
+a:hover {
+    color :#cd040b;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #cd040b;
+    border-color: #cd040b;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e52026;
+    border-color: #e52026;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #e52026;
+    border-color: #e52026;
+}
+.interviewRow {
+    margin-top: 10px;
+}
+.interviewRow .label {
+   font-size: 14px;
+   opacity: 0.8;
+}
+.interviewRow .value {
+    font-size: 16px;
+}
+#chatContainer {
+    max-height: 620px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.3);
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb10 {
+    margin-bottom: 20px;
+}
+
+.article-page .card.msgbox {
+    width: 500px;
+}
+.card .card-block {
+    padding: 10px;
+}
+.msgbox p {
+    margin-bottom: 3px;
+}
+.card.msgbox.sender {
+    float: right;
+    background-color: #def2f1
+}
+.card.msgbox.receiver {
+    float: left;
+}
+#chatTextbox {
+    padding: 0;
+    margin-top: 20px;
+}
+.user-name {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
